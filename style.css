@@ -1,15 +1,16 @@
 body {
     /* background-color: burlywood; */
     margin-left: 70px;
+    color: rgb(192, 29, 45);
 }
 
 .logo {
     position: absolute;
     top: absolute;
     float: left;
-    font-size: 30px;
-    color: brown;
     /* border: solid; */
+    height: 50px;
+    width: 100px;
 }
 
 .title {
@@ -19,6 +20,8 @@ body {
     font-size: 50px;
     text-decoration: underline;
     margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
     /* border: solid; */
 }
 
@@ -32,7 +35,7 @@ header {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    /* border: solid; */
+    border: solid;
 }
 
 .container1 img {
@@ -45,6 +48,7 @@ header {
 .container2 {
     float: left;
     font-size: 40px;
+    color: rgb(192, 29, 45);
     margin-left: 15px;
     /* border: solid; */
 }
